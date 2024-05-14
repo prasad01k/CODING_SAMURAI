@@ -1,0 +1,47 @@
+body{
+    background-color: pink;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: red;
+    display: grid;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 99px;
+    height: 500px;
+    width: 450px;
+    
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+    padding: 25px;
+}
+#display{
+    height: 60px;
+    padding: 10px;
+    font-size: 25px;
+    margin-bottom: 0;
+    margin: 10px;
+}
+button{
+    height: 50px;
+    width: 80px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 50px;
+
+}
