@@ -9,28 +9,33 @@
             Web-based Calculator Project
         </nav>
         <main>
-               <input id="display" type="text" placeholder="result">
+            <div class="info" style="color: white;">
+                hi
+            </div>
+            <div class="main">
+               <input id="display" type="text" readonly>
                <div class="keys">
-                <button onclick="clears()">Clear</button>
-                <button onclick="del()">Del</button>
-                <button onclick="appendtodisplay('%')">%</button>
-                <button onclick="appendtodisplay('/')">/</button>
-                <button onclick="appendtodisplay('7')">7</button>
-                <button onclick="appendtodisplay('8')">8</button>
-                <button onclick="appendtodisplay('9')">9</button>
-                <button onclick="appendtodisplay('*')">*</button>
-                <button onclick="appendtodisplay('4')">4</button>
-                <button onclick="appendtodisplay('5')">5</button>
-                <button onclick="appendtodisplay('6')">6</button>
-                <button onclick="appendtodisplay('-')">-</button>
-                <button onclick="appendtodisplay('1')">1</button>
-                <button onclick="appendtodisplay('2')">2</button>
-                <button onclick="appendtodisplay('3')">3</button>
-                <button onclick="appendtodisplay('+')">+</button>
-                <button onclick="appendtodisplay('00')">00</button>
-                <button onclick="appendtodisplay('0')">0</button>
-                <button onclick="appendtodisplay('.')">.</button>
-                <button onclick="calc()">=</button>
+                    <button id="ops" onclick="clears()">Clear</button>
+                    <button id="ops" onclick="del()">Del</button>
+                    <button id="ops" onclick="appendtodisplay('%')">%</button>
+                    <button id="ops" onclick="appendtodisplay('/')">/</button>
+                    <button onclick="appendtodisplay('7')">7</button>
+                    <button onclick="appendtodisplay('8')">8</button>
+                    <button onclick="appendtodisplay('9')">9</button>
+                    <button id="ops" onclick="appendtodisplay('*')">*</button>
+                    <button onclick="appendtodisplay('4')">4</button>
+                    <button onclick="appendtodisplay('5')">5</button>
+                    <button onclick="appendtodisplay('6')">6</button>
+                    <button id="ops" onclick="appendtodisplay('-')">-</button>
+                    <button onclick="appendtodisplay('1')">1</button>
+                    <button onclick="appendtodisplay('2')">2</button>
+                    <button onclick="appendtodisplay('3')">3</button>
+                    <button id="ops" onclick="appendtodisplay('+')">+</button>
+                    <button onclick="appendtodisplay('00')">00</button>
+                    <button onclick="appendtodisplay('0')">0</button>
+                    <button onclick="appendtodisplay('.')">.</button>
+                    <button id="ops" onclick="calc()">=</button>
+                </div>
             </div>
         </main>
         <footer>
