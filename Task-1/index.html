@@ -11,30 +11,31 @@
         <main>
                <input id="display" type="text" placeholder="result">
                <div class="keys">
-                <button>Clear</button>
-                <button>Del</button>
-                <button>%</button>
-                <button>/</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>*</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-                <button>00</button>
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
+                <button onclick="clears()">Clear</button>
+                <button onclick="del()">Del</button>
+                <button onclick="appendtodisplay('%')">%</button>
+                <button onclick="appendtodisplay('/')">/</button>
+                <button onclick="appendtodisplay('7')">7</button>
+                <button onclick="appendtodisplay('8')">8</button>
+                <button onclick="appendtodisplay('9')">9</button>
+                <button onclick="appendtodisplay('*')">*</button>
+                <button onclick="appendtodisplay('4')">4</button>
+                <button onclick="appendtodisplay('5')">5</button>
+                <button onclick="appendtodisplay('6')">6</button>
+                <button onclick="appendtodisplay('-')">-</button>
+                <button onclick="appendtodisplay('1')">1</button>
+                <button onclick="appendtodisplay('2')">2</button>
+                <button onclick="appendtodisplay('3')">3</button>
+                <button onclick="appendtodisplay('+')">+</button>
+                <button onclick="appendtodisplay('00')">00</button>
+                <button onclick="appendtodisplay('0')">0</button>
+                <button onclick="appendtodisplay('.')">.</button>
+                <button onclick="calc()">=</button>
             </div>
         </main>
         <footer>
             footer
         </footer>
+        <script src="index.js"></script>
     </body>
 </html>
